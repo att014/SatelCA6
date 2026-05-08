@@ -1,0 +1,36 @@
+external_components:
+  - source:
+      type: local
+      path: external_components
+
+satel_ca6:
+  id: alarm
+  clk_pin: 18
+  data_pin: 19
+
+  z1:
+    name: "Alarm Z1"
+
+  z2:
+    name: "Alarm Z2"
+
+  z3:
+    name: "Alarm Z3"
+
+  z4:
+    name: "Alarm Z4"
+
+  z5:
+    name: "Alarm Z5"
+
+  z6:
+    name: "Alarm Z6"
+
+  z7:
+    name: "Alarm Z7"
+
+  trouble:
+    name: "Alarm Trouble"
+
+  state:
+    name: "Alarm State"
